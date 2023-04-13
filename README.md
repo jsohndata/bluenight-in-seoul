@@ -3,7 +3,7 @@ The project creates a clock using JavaScript, HTML, and CSS to display the curre
 
 [![screen shot](./src/images/readme.webp)](https://jsohndata.github.io/bluenight-in-seoul)
 
-[🚀 jsohndata.github.io/bluenight-in-seoul-clock](https://jsohndata.github.io/bluenight-in-seoul)
+[🚀 jsohndata.github.io/bluenight-in-seoul](https://jsohndata.github.io/bluenight-in-seoul)
 
 <br>
 
