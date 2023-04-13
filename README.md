@@ -1,9 +1,9 @@
 # BlueNight in Seoul Clock
 The project creates a clock using JavaScript, HTML, and CSS to display the current time dynamically.
 
-[![screen shot](./src/images/readme.webp)](https://jsohndata.github.io/bluenight-in-seoul-clock)
+[![screen shot](./src/images/readme.webp)](https://jsohndata.github.io/bluenight-in-seoul)
 
-[🚀 jsohndata.github.io/bluenight-in-seoul-clock](https://jsohndata.github.io/bluenight-in-seoul-clock)
+[🚀 jsohndata.github.io/bluenight-in-seoul-clock](https://jsohndata.github.io/bluenight-in-seoul)
 
 <br>
 
