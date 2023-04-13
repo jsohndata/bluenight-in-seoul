@@ -8,7 +8,7 @@ The project creates a clock using JavaScript, HTML, and CSS to display the curre
 <br>
 
 ## Homage
-* [Blue Night in Seoul<Last Hope> StarCraft Map](https://scmscx.com/map/G8V4Rh2D)
+* [Blue Night in Seoul < Last Hope > - StarCraft Map](https://scmscx.com/map/G8V4Rh2D)
 
 <br>
 
