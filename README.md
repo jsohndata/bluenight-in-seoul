@@ -1,5 +1,5 @@
 # BlueNight in Seoul Clock
-The project creates a clock using JavaScript, HTML, and CSS to display the current time dynamically.
+In Week 4 of BocaCode (C-10) we created a clock using JavaScript, HTML, and CSS to display the current time in Seoul, Korea using toLocaleString.
 
 [![screen shot](./src/images/readme.webp)](https://jsohndata.github.io/bluenight-in-seoul)
 
