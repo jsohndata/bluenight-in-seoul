@@ -1,25 +1,20 @@
+/* More info https://www.w3schools.com/jsref/jsref_tolocalestring.asp */
 
 const getCurrentTime = () => {
-  // Get new instance of the current date
- // const today = new Date();
-
  // Set the timezone
   const options = {
     timeZone: 'Asia/Seoul',
-    hour12: false, // Use 24-hour format
-    weekday: 'long', // Show the weekday (e.g. Monday)
-    month: 'long', // Show the month (e.g. April)
-    day: 'numeric', // Show the day (e.g. 12)
-    hour: 'numeric', // Show the hour (e.g. 15 for 3 PM)
-    minute: 'numeric', // Show the minute (e.g. 30)
-    second: 'numeric', // Show the second (e.g. 45)
+    hour12: false, 
+    weekday: 'long',
+    month: 'long',
+    day: 'numeric',
+    hour: 'numeric',
+    minute: 'numeric',
+    second: 'numeric'
   };
-
+  
   // Get the current time
-  const today = new Date().toLocaleString('en-US', options);
-
-  // Assemble
-  let currentTime = `${today}`;
+  const currentTime = new Date().toLocaleString('ko-KR', options).replace('요일', '요일<br>');
 
   // Render
   document.querySelector(".clock").innerHTML = currentTime;
@@ -27,12 +22,4 @@ const getCurrentTime = () => {
   
   // Repeat
   setTimeout(getCurrentTime, 1000);
-}
-
-const checkLeadingZero = paramTime => {
-  paramTime < 10 
-    ? paramTime = `0${paramTime}`
-    : null
-
-  return paramTime;
 }
