@@ -3,7 +3,7 @@ We used JavaScript, HTML, and CSS in Week 4 of our BocaCode program (C-10) to cr
 
 [![screen shot](./src/images/readme.webp)](https://jsohndata.github.io/bluenight-in-seoul)
 
-## Link(s)
+## Site
 * 👉 [jsohndata.github.io/bluenight-in-seoul](https://jsohndata.github.io/bluenight-in-seoul)
 
 <br>
