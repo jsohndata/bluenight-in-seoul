@@ -1,7 +1,9 @@
 # BlueNight in Seoul Clock
+[![screen shot](./src/images/readme.webp)](https://jsohndata.github.io/bluenight-in-seoul)
+
 We used JavaScript, HTML, and CSS in Week 4 of our BocaCode program (C-10) to create a clock that displays the current time in Seoul, Korea.
 
-[![screen shot](./src/images/readme.webp)](https://jsohndata.github.io/bluenight-in-seoul)
+<br>
 
 ## Site
 * 👉 [jsohndata.github.io/bluenight-in-seoul](https://jsohndata.github.io/bluenight-in-seoul)
