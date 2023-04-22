@@ -8,7 +8,7 @@ We used JavaScript, HTML, and CSS in Week 4 of our BocaCode program (C-10) to cr
 
 <br>
 
-## Resources
+## Resource
 * [Homage: Blue Night in Seoul < Last Hope > - StarCraft Map](https://scmscx.com/map/G8V4Rh2D)
 * [Google Font: Orbitron](https://fonts.google.com/specimen/Orbitron?preview.text=10:11&preview.text_type=custom)
 * [Fotor](https://www.fotor.com/)
