@@ -42,3 +42,8 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.small {
+  text-align: center;
+  font-size: 0.8rem;
+}
