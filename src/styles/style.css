@@ -4,9 +4,19 @@
 
 /* @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap'); */
 
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;            /* Remove scrollbars */
+  position: fixed;             /* Lock viewport */
+  width: 100%;                 
+  overscroll-behavior: none;   /* Disable pull-to-refresh / bounce */
+  -webkit-overflow-scrolling: auto; /* Stop momentum scrolling on iOS */
+}
+
+
 body {
-  width: 100%;
-  
   background-image: url("../images/bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
