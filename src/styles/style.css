@@ -4,25 +4,33 @@
 
 /* @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap'); */
 
+/* 1) Stop locking html/body; iOS hates this combo */
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  overflow: hidden;            /* Remove scrollbars */
-  position: fixed;             /* Lock viewport */
-  width: 100%;                 
-  overscroll-behavior: none;   /* Disable pull-to-refresh / bounce */
-  -webkit-overflow-scrolling: auto; /* Stop momentum scrolling on iOS */
+  overflow: hidden;   /* keep zero scroll if you want */
+  /* position: fixed;  <-- remove this */
 }
 
-
-body {
-  background-image: url("../images/bg.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  transition-duration: 1.3s;
+/* 2) Paint the bg on a fixed pseudo-element instead of body */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;                 /* top/right/bottom/left: 0 */
+  z-index: -1;              /* stay behind your content */
+  background:
+    image-set(
+      url("../images/bg.webp") type("image/webp") 1x,
+      url("../images/bg.jpg")  type("image/jpeg") 1x
+    )
+    center / cover no-repeat;
+  /* DO NOT use background-attachment here */
+  will-change: transform;
 }
+
+/* optional: smooth fades when you swap images */
+body { transition: background 1.3s; }
 
 h1 {
   margin: 0;
